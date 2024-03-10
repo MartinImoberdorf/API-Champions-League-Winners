@@ -65,7 +65,7 @@ def get_winner_by_season(season: str):
     return JSONResponse(status_code=200,content=jsonable_encoder(data))
 
 @routerWinner.get("/winner_score/",tags=["Winners"], status_code=200)
-def get_winner_by_season(score: str):
+def get_winner_by_score(score: str):
     db=session()
     data=db.query(ModelWinner).filter(ModelWinner.score==score).all()
     if not data:
