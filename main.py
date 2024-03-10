@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from bd.database import  engine, base
-
 from routers.winners import routerWinner
+import os
+import uvicorn
 
 app= FastAPI(
     title='Winners of the UEFA Champions League',
@@ -20,3 +21,6 @@ def read_root():
 
 app.include_router(routerWinner)
 
+if __name__=='__main__':
+    port = int(os.environ.get("PORT",8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
