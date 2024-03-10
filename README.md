@@ -40,6 +40,12 @@
 ```
 
 
+## Demo
+
+Insert gif or link to demo
+
+![image](https://github.com/MartinImoberdorf/API-Champions-League-Winners/assets/93394695/187fdbc6-c296-4ed8-ba4c-0054fdf58bd0)
+
 
 ## Documentation
 
