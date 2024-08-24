@@ -50,7 +50,7 @@
 [Documentation](https://api-champions-league-winners.onrender.com/docs#/)
 
 
-## Authors
+## Author
 
 - [@MartinImoberdorf](https://github.com/MartinImoberdorf)
 
